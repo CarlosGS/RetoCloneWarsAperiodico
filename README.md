@@ -562,3 +562,17 @@ Recuerda marcar las que vayas a imprimir en esta hoja compartida:
 - [Zaragoza](STLs/Zaragoza.stl)
 
 
+# El reto progresa... ¿qué esperas? ¡¡aporta tus piezas!!
+
+![](fotos/obijuan.png)
+![](fotos/patripi.jpg)
+![](fotos/obijuan2.jpg)
+![](fotos/obijuan3.jpg)
+![](fotos/obijuan4.png)
+![](fotos/eneko.jpg)
+![](fotos/obijuan5.jpg)
+![](fotos/patripi2.jpg)
+![](fotos/rafacouto.png)
+
+
+
