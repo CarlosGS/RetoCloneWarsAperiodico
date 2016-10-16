@@ -40,8 +40,6 @@ Recuerda marcar las que vayas a imprimir en esta hoja compartida:
 
 ¡Las piezas repetidas, también vienen bien! Formaremos frases con ellas el dia del evento.  
 
-(Descargarlas mediante Botón derecho -> Guardar como)  
-
 - [2012](STLs/2012.stl)
 - [2014](STLs/2014.stl)
 - [2015](STLs/2015.stl)
