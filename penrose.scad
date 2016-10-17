@@ -78,11 +78,20 @@ module penrose() {
 }
 //penrose();
 
-texto = "prueba"; // se sobreescribe externamente al ejecutar openscad por terminal
 
-if(len(texto) < 7) // las palabras cortas, se usan para crear flechas
+
+
+texto = "prueba"; // modificar al gusto de cada un@
+
+if(len(texto) < 7) // las palabras cortas se usan para crear flechas (también puedes cambiarlo)
     translate([0,0,-tolerancia]) rotate([0,72/2,0]) rotate([-90,0,0]) // orientacion vertical
         flecha(texto);
 else
     translate([0,0,-tolerancia]) rotate([-90,0,0]) rotate(-72/2) // orientacion vertical
         cometa(texto);
+
+
+
+
+
+

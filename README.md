@@ -23,20 +23,28 @@ _Las piezas se imprimen en vertical para ahorrar espacio y aumentar la calidad d
 
 ¿Como generar teselas de manera automatica?
 --
-Lanzar el script como:
+Instalar **OpenScad**. Desde linux, lanzar el script como:
 
+```
+CUSTOMIZAR_PIEZA.sh
+```
+Entonces basta con ir tecleando palabras y pulsar ENTER para cada una, así se van generando los .stl en la misma carpeta del script.
+
+Para generar toda la lista de palabras
 ```
 cat lista_palabras.txt | ./generate_stls.sh
+cat lista_etiquetas.txt | ./generate_stls.sh
 ```
 
+Tambien se puede abrir el fichero **penrose.scad** con OpenScad, y cambiar la variable "texto" que hay al final del documento. Renderizar con F6 y exportar el STL customizado.
 
+
+# Recuerda marcar las que vayas a imprimir en esta hoja compartida:  
+
+<https://docs.google.com/spreadsheets/d/1uD2_QQN5FQzhx-X0O5jLnv0Mfa9GLHLmWsaY0qJ4cSo/edit#gid=0>
 
 
 # ¡Descarga las teselas!
-
-Recuerda marcar las que vayas a imprimir en esta hoja compartida:  
-
-<https://docs.google.com/spreadsheets/d/1uD2_QQN5FQzhx-X0O5jLnv0Mfa9GLHLmWsaY0qJ4cSo/edit#gid=0>
 
 ¡Las piezas repetidas, también vienen bien! Formaremos frases con ellas el dia del evento.  
 
