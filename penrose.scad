@@ -53,8 +53,8 @@ module flecha(texto) {
         }
         translate(C-B+[5,0]) translate([0,0,grosor_piezas]) rotate(-90) resize([21,8,profundidad_texto*2]) linear_extrude(height = 1, center=true)
             text(texto, size = 4, valign="center", halign="center", font = str("FreeMono", ":style=Bold"), $fn = 16);
-        translate(C-B+[5,0]) rotate(-90) resize([21,8,profundidad_texto*2]) linear_extrude(height = 1, center=true)
-            rotate([0,180,0]) text(texto, size = 4, valign="center", halign="center", font = str("FreeMono", ":style=Bold"), $fn = 16);
+        translate(C-B+[4.5,0]) rotate(-90) resize([21,8,profundidad_texto*2]) linear_extrude(height = 1, center=true)
+            rotate([180,0,0]) text(texto, size = 4, valign="center", halign="center", font = str("FreeMono", ":style=Bold"), $fn = 16);
     }
 }
 
@@ -84,10 +84,10 @@ module penrose() {
 texto = "prueba"; // modificar al gusto de cada un@
 
 if(len(texto) < 7) // las palabras cortas se usan para crear flechas (también puedes cambiarlo)
-    translate([0,0,-tolerancia]) rotate([0,72/2,0]) rotate([-90,0,0]) // orientacion vertical
+    rotate(90) translate([0,0,-tolerancia]) rotate([0,72/2,0]) rotate([-90,0,0]) // orientacion vertical
         flecha(texto);
 else
-    translate([0,0,-tolerancia]) rotate([-90,0,0]) rotate(-72/2) // orientacion vertical
+    rotate(90) translate([0,0,-tolerancia]) rotate([-90,0,0]) rotate(-72/2) // orientacion vertical
         cometa(texto);
 
 
