@@ -54,6 +54,6 @@ Recuerda marcar las que vayas a imprimir en esta hoja compartida:
 ![](fotos/obijuan5.jpg)
 ![](fotos/patripi2.jpg)
 ![](fotos/rafacouto.png)
-
+![](fotos/fmalpartida.jpg)
 
 
