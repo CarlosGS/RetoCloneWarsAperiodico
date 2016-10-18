@@ -13,8 +13,9 @@ profundidad_texto = 0.75;
 a = 40; // longitud del lado mayor
 b = 0;
 
-ang_B = 72/2;
-ang_D = -72/2;
+angulo_base = 72;
+ang_B = angulo_base/2;
+ang_D = -angulo_base/2;
 
 A = [0,0];
 B = [a*cos(ang_B),a*sin(ang_B)];
@@ -84,10 +85,10 @@ module penrose() {
 texto = "prueba"; // modificar al gusto de cada un@
 
 if(len(texto) < 7) // las palabras cortas se usan para crear flechas (también puedes cambiarlo)
-    rotate(90) translate([0,0,-tolerancia]) rotate([0,72/2,0]) rotate([-90,0,0]) // orientacion vertical
+    rotate(90) translate([0,0,-tolerancia]) rotate([0,ang_B,0]) rotate([-90,0,0]) // orientacion vertical
         flecha(texto);
 else
-    rotate(90) translate([0,0,-tolerancia]) rotate([-90,0,0]) rotate(-72/2) // orientacion vertical
+    rotate(90) translate([0,0,-tolerancia]) rotate([-90,0,0]) rotate(-ang_B) // orientacion vertical
         cometa(texto);
 
 
