@@ -84,4 +84,7 @@ Tambien se puede abrir el fichero **penrose.scad** con OpenScad, y cambiar la va
 ![](fotos/eneko3.jpg)
 ![](fotos/garageDays3D.jpg)
 ![](fotos/jesusNovoCastro.jpg)
+![](fotos/carlosgs5.jpg)
+![](fotos/obijuan6.jpg)
+
 
