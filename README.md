@@ -1,4 +1,4 @@
-# Reto CloneWars Aperiódico - OSHWDem 2016
+# Reto Pruselación CloneWars - OSHWDem 2016
 Teselacion de Penrose (P2) con el texto de las palabras más frecuentes en los asuntos de la lista de correo CloneWars
 
 ![](fotos/teselacion.png)  
@@ -13,8 +13,8 @@ Las piezas tienen texto a ambos lados, para permitir corregir la orientación de
 ![](fotos/piezas_slic3r.png)  
 _Las piezas se imprimen en vertical para ahorrar espacio y aumentar la calidad del texto_
 
-¡El debate continúa en la lista de correo!
-==
+Hilo del Reto en la lista de correo
+--
 <https://groups.google.com/d/topic/asrob-uc3m-impresoras-3d/1xUjr2cjcSo/discussion>
 
 ¿Quieres personalizar tus teselas? ¡Mira este paso a paso en FreeCAD!
@@ -81,4 +81,5 @@ Tambien se puede abrir el fichero **penrose.scad** con OpenScad, y cambiar la va
 ![](fotos/iceflow2.jpg)
 ![](fotos/carlosgs3.jpg)
 ![](fotos/carlosgs4.jpg)
+![](fotos/carlosgs5.jpg)
 
